@@ -49,7 +49,7 @@ document.getElementById("submit").addEventListener("click", function(){
                 document.getElementById("pin").style.display = "none";
                 document.getElementById("notify").style.display = "none";
             }
-            setTimeout(secret, 3000);
+            setTimeout(secret, 2000);
 
             
             if(pinInput == buttonInput){
