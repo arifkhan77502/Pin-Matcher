@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #0F0F17;
+}
+
+.button{
+    width: 60px;
+    height: 60px;
+    background-color: #444E5D;
+    border: none;
+    border-radius: 50%;
+    margin: 10px;
+    color: white;
+    outline: 0px;
+}
+
+.button:focus{
+    outline: none;
+    background-color: #4B5DBE;
+}
+
+.pinGenerate{
+    background-color: #4b5dbe;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 60px;
+    font-size: 25px;
+    font-weight: 500;
+    border: 10px solid #39458C;
+    cursor: pointer;
+}
+
+.card{
+    height: 550px;
+    width: auto;
+    background-color: #222436;
+    margin: 30px;
+}
+
+.input{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 25px;
+}
+
+input[type="text"]:focus{
+    background-color: #3D4153;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#pinInput{
+    margin-bottom: 100px;
+    letter-spacing: 20px;
+    font-size: 20px;
+}
+
+#buttonInput{
+    letter-spacing: 20px;
+    font-size: 20px;
+}
+
+#buttonInput{
+    margin-bottom: 10px;
+}
+
+.form-control{
+    background-color: #43424C;
+    border-color: gray;
+}
+
+#submit{
+    background-color: #4b5dbe;
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0 auto;
+    margin-top: 15px;
+    cursor: pointer;
+    padding-top: 3px;
+}
+
+.icon{
+    background-color: #21222F;
+    width: 500px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 20px;
+    font-size: 15px;
+    padding-top: 4px;
+    display: none;
+}
+
+.fa-times-circle{
+    color: red;
+    font-size: 20px;
+}
+
+.fa-check-circle{
+    color: rgb(0, 255, 0);
+    font-size: 20px;
+}
+
+.secretDoor{
+    display: none;
+}
+
+.secretDoor h3{
+    color: rgb(109, 238, 255);
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.secretDoor .img{
+    width: 70vh;
+}
